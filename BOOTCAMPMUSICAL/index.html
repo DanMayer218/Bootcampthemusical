@@ -19,62 +19,46 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
         <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap" rel="stylesheet">
     </head>
-    <body style="background-image: url('assets/binary%20backdrop.png'); background-color: rgba(255, 253, 253, 0.07); opacity: 1; justify-items: center; height: 1265px;">
+    <body style="background-image: url('assets/binary%20backdrop.png'); background-color: rgba(255, 253, 253, 0.07); opacity: 1; justify-items: center; height: 1265px; padding: 20px;">
+        
         <!-- Header element -->
-        <h1 style="height: 101px; text-align: center; bottom: 0; top: 0; right: 0; left: 0; padding-top: 12px; font-family: Bungee Shade; text-decoration: underline; line-height: 77px; font-size: 50px; letter-spacing: 12px; font-weight: bold; margin-top: 28px; box-shadow: 0px 7px 41px 5px; background-color: #ffffff;">BOOTCAMP THE MUSICAL</h1>
+        <h1 style="height: 101px; width: 100%; border: 4px solid; border-radius: 43px; text-align: center; bottom: 0; top: 0; right: 0; left: 0; padding-top: 12px; font-family: Bungee Shade; text-decoration: underline; line-height: 77px; font-size: 50px; letter-spacing: 12px; font-weight: bold; margin-top: 28px; box-shadow: 0px 7px 41px 5px; background-color: #ffffff;">BOOTCAMP THE MUSICAL</h1>
+        
         <!-- Game challenge -->
-        <section style="margin-top: 44px; margin-left:150px;height: 110px; width: 908px; 
-                        margin-left: 52px; border-radius: 23px; border: 4px solid; font-family: Audiowide; 
+        <section style="margin-top: 44px; height: 110px; width: 100%; 
+                         border-radius: 23px; border: 4px solid; font-family: Audiowide; 
                         font-size: 28px;  letter-spacing: 4px; text-indent: -7px; text-align: center; 
-                        line-height: 44px; background-color: #ffffff; margin-left:90px;">
+                        line-height: 44px; background-color: #ffffff;">
             <b>TEST YOUR CODING KNOWLEDGE AND JOIN THE LEGENDS LIST.</b>
         </section>
-        
+       <div style="width: 100%; display: flex; justify-content: space-between;">
         <!-- Question box -->
-        <main id="questionbox" style="margin-top: 20px; width: 368px; 
-                       height: 352px; border: 4px solid; border-radius: 43px; margin-left: 51px; 
-                       display: inline-block; float: left; background-color: #ffffff; margin-left:90px;">
-            <p id="questionp">Are you ready?</p>
-            <article class="pg-empty-placeholder" class= "questiontext" style="height: 236px; font-family: Darker Grotesque; font-size: 21px; width: 327px; margin-left: 16px; margin-bottom: 1px; margin-top: 19px;"></article>
+        <main id="questionbox" style="margin-top: 20px; width: 33%; 
+                       height: 352px; border: 4px solid; border-radius: 43px; 
+                       display: inline-block; background-color: #ffffff;">
+            
         </main>
        
         <!-- Answer box -->
-        <main id="answerbox" class="flex-column-reverse d-inline-flex" style="margin-top: 21px; width: 516px; height: 352px; border: 4px solid; border-radius: 43px; margin-left: 24px; right: -11px; display: inline-block; background-color: #ffffff; padding-left: 20px; padding-bottom: 18px;">
-           
-            <!-- submission button -->
-            <button type="button" class="btn btn-light" id="sumbit"style="vertical-align: bottom; width: 309px; margin-left: 80px; top: 83px; border: 2px solid #000000; border-radius: 11px; display: inline; background-color: #648af5; color: #ffffff; font-family: Darker Grotesque; font-size: 21px;">SUBMIT</button>
-            
-            <!-- Radio button 1 -->
-            <div class="form-check radioa" id="radio1" style="width: 418px; margin-left: 24px; font-family: Darker Grotesque; font-size: 21px; position: inherit; border: 2px solid;"> 
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="formInput77" value="option1"> 
-                <label class="form-check-label" for="formInput77">                        Option one                    </label>                 
-            </div>
-            
-            <!-- Radio button 3 -->
-            <div class="form-check radiob" id="radio2" style="width: 418px; margin-left: 24px; font-family: Darker Grotesque; font-size: 21px; border: 2px solid;"> 
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="formInput77" value="option1"> 
-                <label class="form-check-label" for="formInput77">                        Option two                    </label>                 
-            </div>
-            
-            <!-- Radio button 3 -->
-            <div class="form-check radioc" id="radio3" style="margin-left: 24px; width: 418px; font-family: Darker Grotesque; font-size: 21px; border: 2px solid;"> 
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="formInput77" value="option1"> 
-                <label class="form-check-label" for="formInput77">                        Option three                    </label>                 
-            </div>
+        <main id="answerbox" class="flex-column-reverse d-inline-flex" style="margin-top: 21px; width: 33%; height: 352px; border: 4px solid; border-radius: 43px; margin-left: 10px; margin-right: 20px; display: inline-block; background-color: #ffffff; padding-left: 20px; padding-bottom: 18px;"></main>
+              <!-- results -->
+            <main id="results" class="flex-column-reverse d-inline-flex" style="margin-top: 21px; width: 33%; height: 352px; border: 4px solid; border-radius: 43px; margin-left: 10px; margin-right: 20px; display: inline-block; background-color: #ffffff; padding-left: 20px; padding-bottom: 18px;">
+
         </main>
-       
-        <section style="display: flex; justify-content: space-around; align-content: even; flex-flow: row; row: repeat; width: 901px; margin-left: 53px; height: 600px; margin-top: 32px; border: 4px solid; border-radius: 37px; background-color: #ffffff; margin-left: 90px; padding: 10px;" class="flex-wrap">
-            <h1 id="results" style="width: 800px; text-align: center; padding-top: 5px; font-family: Barrio; border: 2px solid; border-radius: 17px; height: 84px; margin-top: 34px; box-shadow: 1px 10px 39px;"> Results</h1>
-            <img class="rounded" style="width: 150px; height: 150px; margin-left: 0; border: 2px solid;" src="https://cdn2.sportngin.com/attachments/roster_player_info/6309/5015/6_weird-looking-people_medium.jpg">
-            <img class="rounded" style="width: 150px; height: 150px; border: 2px solid;" src="http://p0.ipstatp.com/large/005a1ad4ee2e00a2c2b6">
-            <img class="rounded" style="width: 150px; height: 150px; border-left: 2px solid;" src="https://pbs.twimg.com/profile_images/1084646941273673728/8JPM1Y6K_400x400.jpg">
-            <img class="rounded" style="width: 150px; height: 150px; border: 2px solid;" src="https://i1.wp.com/teamjimmyjoe.com/wp-content/uploads/2013/01/Bad-Family-Photos-Washing-Machine.jpg?fit=500%2C409&amp;ssl=1">
-            <img class="rounded" style="width: 150px; height: 150px; border: 2px solid;" src="https://cdn-images.postach.io/cb32c098-2252-4481-b5f6-0aa728d52be3/8c359ae0-24d4-40cd-a532-2efad3e8db2a/a322f75b-0635-4c34-bfdd-1e21a7453e1c.jpg">
-            <img class="rounded" style="width: 150px; height: 150px; border: 2px solid;" src="http://i319.photobucket.com/albums/mm451/rayray42Soultakers/WTF2-1.jpg">
-            <img class="rounded" style="width: 150px; height: 150px; border: 2px solid;" src="https://media.licdn.com/dms/image/C4D03AQFIdmhC6tTKaw/profile-displayphoto-shrink_800_800/0?e=1570665600&amp;v=beta&amp;t=7senVPbRXV5pxfvjYc5AhahK8eZXjqF1O9jlWUb4FOU">
-            <img class="rounded" style="width: 150px; height: 150px; border: 2px solid;" src="https://cdn.ebaumsworld.com/mediaFiles/picture/517631/722754.jpg">
-            <img style="width: 150px; height: 150px; border: 2px solid;" src="https://pbs.twimg.com/media/DY_aA5UVMAAxahK.jpg" class="rounded-0">
-            <img class="rounded" style="width: 150px; height: 150px; border: 2px solid;" src="http://1.bp.blogspot.com/-OViSfSx6hM0/ThlR6-UEakI/AAAAAAAACtY/UA1MlPhTNes/s1600/198152_10150136516237870_88420692869_6237291_203344_n.jpg">
+        </div>
+        <section style="display: flex; justify-content: space-around; align-content: space-around; width: 100%; height: 500px; margin-top: 32px; border: 4px solid; border-radius: 37px; background-color: #ffffff; padding: 10px; padding-bottom:20px;" class="flex-wrap">
+            <h3 style="width:100%; height: 100px; border-radius: 23px; border: 4px solid; font-family: Audiowide; 
+            font-size: 28px;  letter-spacing: 4px; text-indent: -7px; text-align: center; ">PREVIOUS CHAMPIONS</h3>
+            <img class="rounded" style="width: 150px; height: 150px; margin-left: 15px; border: 2px solid;" src="https://cdn2.sportngin.com/attachments/roster_player_info/6309/5015/6_weird-looking-people_medium.jpg">
+            <img class="rounded" style="width: 150px; height: 150px; margin-left: 15px; border: 2px solid;" src="http://p0.ipstatp.com/large/005a1ad4ee2e00a2c2b6">
+            <img class="rounded" style="width: 150px; height: 150px; margin-left: 15px; border-left: 2px solid;" src="https://pbs.twimg.com/profile_images/1084646941273673728/8JPM1Y6K_400x400.jpg">
+            <img class="rounded" style="width: 150px; height: 150px; margin-left: 15px; border: 2px solid;" src="https://i1.wp.com/teamjimmyjoe.com/wp-content/uploads/2013/01/Bad-Family-Photos-Washing-Machine.jpg?fit=500%2C409&amp;ssl=1">
+            <img class="rounded" style="width: 150px; height: 150px; margin-left: 15px; border: 2px solid;" src="https://cdn-images.postach.io/cb32c098-2252-4481-b5f6-0aa728d52be3/8c359ae0-24d4-40cd-a532-2efad3e8db2a/a322f75b-0635-4c34-bfdd-1e21a7453e1c.jpg">
+            <img class="rounded" style="width: 150px; height: 150px; margin-left: 15px; border: 2px solid;" src="http://i319.photobucket.com/albums/mm451/rayray42Soultakers/WTF2-1.jpg">
+            <img class="rounded" style="width: 150px; height: 150px; margin-left: 15px; border: 2px solid;" src="https://media.licdn.com/dms/image/C4D03AQFIdmhC6tTKaw/profile-displayphoto-shrink_800_800/0?e=1570665600&amp;v=beta&amp;t=7senVPbRXV5pxfvjYc5AhahK8eZXjqF1O9jlWUb4FOU">
+            <img class="rounded" style="width: 150px; height: 150px; margin-left: 15px; border: 2px solid;" src="https://cdn.ebaumsworld.com/mediaFiles/picture/517631/722754.jpg">
+            <img class="rounded" style="width: 150px; height: 150px; margin-left: 15px; border: 2px solid;" src="https://pbs.twimg.com/media/DY_aA5UVMAAxahK.jpg">
+            
         </section>
 
  <!-- Bottom section box -->
@@ -90,7 +74,7 @@
 
                 // multidimensional array carrying 
             var questions = [
-                ["What does HTML stand for?",'Horrifically timed maniacal laughter', 'Hypertext Markup Language','Hypnotext makeout language','b'],
+                ["What does HTML stand for?",'Horrifically timed maniacal laughter','Hypertext Markup Language','Hypnotext makeout language','b'],
                 ["CSS can be used in which of the following ways?",'Inline, only on a wednesday and only to make text bold','To manipulate your loved ones and the general population as a whole','inline, linked by stylesheet and written in the header','b'],
                 ["Which of the following stands for a CDN?",'Chilling, dining, napping','Criminally dedicated network','Content delivery network','c'],
                 ["Javascript and Java are.....",'are not the same, and yet everyone thinks they are!','JQuerys cousins who we dont talk about anymore!','A new hip hop group called J-cubed!','a'],
@@ -107,6 +91,48 @@
                 function get(x) {
                     return document.getElementById(x);
                 }
+
+                function renderQuestion() {
+                    answerBox = get("answerbox");
+                    questionBox = get("questionbox");
+                    results = get("results");
+                    if(pos>=questions.length) {
+                        results.innerHTML = "<h2>I'm shocked, you got "+correct+" of "+questions.length+" questions correct</h2>";
+                        get("results").innerHTML = "Test completed";
+                        pos = 0;
+                        correct = 0;
+                        return false;
+                    }
+                    
+                    question = questions[pos][0];
+                    chA = questions [pos][1];
+                    chB = questions [pos][2];
+                    chC = questions [pos][3];
+                    questionBox.innerHTML = "<h3>"+question+"</h3>";
+                    answerBox.innerHTML += "<input type='radio'  name='choices' value='A'>"+chA+"<br>";
+                    answerBox.innerHTML += "<input type='radio'  name='choices' value='B'>"+chB+"<br>";
+                    answerBox.innerHTML += "<input type='radio'  name='choices' value='C'>"+chC+"<br><br>";
+                    answerBox.innerHTML += "<button onClick='checkAnswer()'>Submit Answer</button>";
+                }
+
+            // Function for checking the answers
+            
+            function checkAnswer() {
+                var choices = document.getElementsByName("choices");
+                for (var i = 0; i < choices.length; i++) {
+                    if (choices[i].checked) {
+                        choice = choices[i].value;
+                    }
+                }
+                if (choice == questions[pos][4]) {
+                    correct++;
+                }
+                pos++;
+                renderQuestion();
+            }
+
+            // runs the renderQuestion function as soon as the page loads up
+            window.addEventListener("load", renderQuestion(), false);
 
 
         

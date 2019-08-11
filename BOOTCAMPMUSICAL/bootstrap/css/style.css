@@ -68,3 +68,13 @@
     width: 417px;
     margin-left: 36px;
 }
+
+button {
+    width: 30%;
+    background-color: rgb(151, 151, 255);
+    border: 4px solid;
+}
+
+radio {
+    text-align: center;
+}
